@@ -35,3 +35,19 @@
 # - Footer stays at the bottom
 # added a background image 
 # nav ul and nav ul li styles create a horizontal menu
+
+# Phase 3
+
+### projects.html
+# - Each project is wrapped around the article tag which groups related content, h2 as the heading, and <p> for the description
+# - Includes the navigation bar, same as other files, 
+# - Head setup stays the same with title and link to all css files.
+
+### full.css
+# - the * {} part makes sure all elements start with no spacing and use consitent box sizing
+# - the body provides the background image as for all files, fills the screen, makes sure text is white and readable. 
+# - extra padding at the bottom so the text doesnt overlap the footer
+# - header bar stays with haveing the trans background
+# - the nav removes bullets from navigation links, places them side by side, adds spacing, and makes it bold and white
+# - the main centers the project section, makes the project titles and descriiptions centered organized top to bottom
+# - footer includes the contact info and stays at the bttom matching the header

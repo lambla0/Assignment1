@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url("cool.jpg");
@@ -12,8 +16,7 @@ body {
     background-repeat: no-repeat;
     color: #fff;
     min-height: 100vh;
-    position: relative;
-    padding-bottom: 100px; 
+    padding-bottom: 140px; 
 }
 
 header {
@@ -40,35 +43,50 @@ nav ul li a {
 
 main {
     max-width: 900px;
-    margin: 50px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
-.profile-container {
-    display: inline-block;
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.profile-container img {
+main img {
     width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
-    border-radius: 50%;
 }
 
-.profile-container b {
-    font-size: 20px;
+main b {
+    display: inline-block;
     vertical-align: middle;
+    font-size: 22px;
+}
+
+main p {
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 video {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
     display: block;
-    margin: 20px auto 0 auto;
+    margin: 30px auto;
+    width: 400px;
+    max-width: 90%;
+    height: auto;
     border-radius: 10px;
+}
+
+main section {
+    text-align: center;
+}
+
+main article {
+    background-color: rgba(0,0,0,0.6);
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 700px;
+    text-align: left;
 }
 
 footer {
@@ -76,7 +94,7 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
