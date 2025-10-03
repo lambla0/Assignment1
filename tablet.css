@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("cool.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 140px; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+main b {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
+main p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+video {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+main article {
+    background-color: rgba(0,0,0,0.6);
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 700px;
+    text-align: left;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.welcome-text {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 100px 0; 
+}

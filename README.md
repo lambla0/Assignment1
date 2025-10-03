@@ -51,3 +51,25 @@
 # - the nav removes bullets from navigation links, places them side by side, adds spacing, and makes it bold and white
 # - the main centers the project section, makes the project titles and descriiptions centered organized top to bottom
 # - footer includes the contact info and stays at the bttom matching the header
+
+# Phase 4
+
+
+### contact.html
+# - For the form put in a bunch of inputs like for name single line text required field, this is applied to all 
+# - In put is required, used info from here: https://www.w3schools.com/html/html_forms.asp
+
+### full.css
+# - So I reset spacing using * { margin: 0; padding: 0; box-sizing: border-box; } makes sizing consistent for all the elements
+# - Made sure the body fills the screen
+# - header includes background color with transperency, padding, and centered text
+# - the nav system stays the same where it creates horizontal menu, remove bullets and space links, makes it white and bold
+# - main centeres content with max width and top to bottom spacing 
+
+### tablet.css
+# - copied styles from full.css
+# - Screen width max 1024px because tablets usually fall under this width
+
+### phone.css
+# - copied styles from full
+# - Screen width max 600px because most phones fall under this width

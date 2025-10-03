@@ -98,3 +98,39 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+main form {
+    background-color: black;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+main form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+main form input,
+main form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+main form input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.welcome-text {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 100px 0; 
+}
+
