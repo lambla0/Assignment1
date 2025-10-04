@@ -73,3 +73,12 @@
 ### phone.css
 # - copied styles from full
 # - Screen width max 600px because most phones fall under this width
+
+# Phase 5
+
+### full.css
+# - I used a linear gradient in the header background 135 degree angle to give a transition effect from black to grey, making the title and navigation stand out
+
+# - I used a dark monochromatic color scheme for my portfolio, the main colors are black, grey, and white, which keep the design clean and professional.
+
+# - I fixed mistakes found through the validator

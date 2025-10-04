@@ -128,9 +128,11 @@ main form input[type="submit"] {
 
 .welcome-text {
     text-align: center;
-    color: white;
-    font-size: 28px;
     font-weight: bold;
-    margin: 100px 0; 
-}
+    color: white;
+    margin-top: 100px;
+  }  
 
+header {
+    background: linear-gradient(135deg, black, grey);
+  }
